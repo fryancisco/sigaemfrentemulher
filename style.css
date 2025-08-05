@@ -1,0 +1,136 @@
+        /* Custom styles */
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #FFF7F9; /* A light pink background for a soft touch */
+        }
+
+        /* Custom Colors from PDF */
+        .text-brand-pink-dark { color: #aa0084; }
+        .text-brand-pink-medium { color: #da066d; }
+        .text-brand-pink-light { color: #fb6969; }
+        .bg-brand-pink-dark { background-color: #aa0084; }
+        .bg-brand-pink-medium { background-color: #da066d; }
+        .bg-brand-pink-light { background-color: #fb6969; }
+        .border-brand-pink-dark { border-color: #aa0084; }
+
+        /* Mind Map SVG Styling */
+        .mind-map-node {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        /* Efeito de hover removido do mapa mental, conforme solicitado */
+        
+        .mind-map-line {
+            stroke: #da066d;
+            stroke-width: 3;
+            transition: opacity 0.5s ease-in-out;
+            fill: none;
+        }
+        .mind-map-sub-node, .mind-map-sub-line {
+            opacity: 0;
+            transform: scale(0.5);
+            transform-origin: center;
+            transition: all 0.4s ease-out;
+            pointer-events: none;
+        }
+        .mind-map-node.open > .mind-map-sub-node,
+        .mind-map-node.open > .mind-map-sub-line {
+            opacity: 1;
+            transform: scale(1);
+            pointer-events: all;
+        }
+        
+        /* Modal styles */
+        .modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.6);
+            animation: fadeIn 0.5s;
+        }
+        .modal-content {
+            position: relative;
+            margin: 5% auto;
+            padding: 2rem;
+            width: 90%;
+            max-width: 600px;
+            animation: slideIn 0.5s;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from { transform: translateY(-50px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        /* Card styles */
+        .content-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .content-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+
+        /* FAQ Accordion */
+        .faq-question {
+            cursor: pointer;
+        }
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-out;
+        }
+        .faq-item.open .faq-answer {
+            max-height: 200px; /* Adjust as needed */
+        }
+        .faq-item.open .faq-icon {
+            transform: rotate(180deg);
+        }
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+
+        /* Quiz Styles */
+        .quiz-option {
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+        }
+        .quiz-option.selected {
+            border-color: #da066d;
+            background-color: #fce4ec;
+        }
+        .quiz-option.correct {
+            border-color: #4caf50;
+            background-color: #e8f5e9;
+        }
+        .quiz-option.incorrect {
+            border-color: #f44336;
+            background-color: #ffebee;
+        }
+        
+        /* Loading Spinner */
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 4px solid #da066d;
+            width: 24px;
+            height: 24px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
