@@ -1,8 +1,9 @@
 <header class="bg-white/80 backdrop-blur-lg shadow-md fixed top-0 left-0 right-0 z-50">
     <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-        <a href="#home" class="text-2xl font-bold text-brand-pink-medium">
-            Siga em Frente, Mulher!
-        </a>
+    <a href="#home" class="flex items-center text-2xl font-bold text-brand-pink-medium">
+        <img src="anexos/icon.png" alt="Ícone" class="w-8 h-8 mr-2">
+        Siga em Frente, Mulher!
+    </a>
         <nav class="hidden md:flex space-x-8">
             <a href="#empreendedorismo" class="text-gray-600 hover:text-brand-pink-medium">Empreendedorismo</a>
             <a href="#biblioteca" class="text-gray-600 hover:text-brand-pink-medium">Biblioteca</a>

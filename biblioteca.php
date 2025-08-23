@@ -11,14 +11,14 @@
                 <i class="fas fa-file-pdf text-3xl text-brand-pink-light"></i>
                 <div>
                     <h4 class="font-bold">A Lei Maria da Penha e sua importância</h4>
-                    <a href="#" class="text-sm text-brand-pink-dark hover:underline">Baixar PDF</a>
+                    <a href="./anexos/Lei_da_Maria_da_Penha.pdf" class="text-sm text-brand-pink-dark hover:underline" target=blank>Baixar PDF</a>
                 </div>
             </div>
             <div class="content-card bg-white p-6 rounded-lg shadow-lg flex items-center gap-4">
                 <i class="fas fa-file-pdf text-3xl text-brand-pink-light"></i>
                 <div>
                     <h4 class="font-bold">Como identificar os sinais da violência psicológica</h4>
-                    <a href="#" class="text-sm text-brand-pink-dark hover:underline">Baixar PDF</a>
+                    <a href="./anexos/Violencia_psicologica.pdf" class="text-sm text-brand-pink-dark hover:underline" target=blank>Baixar PDF</a>
                 </div>
             </div>
             <div class="content-card bg-white p-6 rounded-lg shadow-lg flex items-center gap-4">
