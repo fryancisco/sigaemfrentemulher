@@ -25,7 +25,7 @@
                 <i class="fas fa-file-pdf text-3xl text-brand-pink-light"></i>
                 <div>
                     <h4 class="font-bold">Passos para a independência financeira</h4>
-                    <a href="#" class="text-sm text-brand-pink-dark hover:underline">Baixar PDF</a>
+                    <a href="./anexos/Guia_Independencia_Financeira_Siga_em_Frente_Mulher.pdf" class="text-sm text-brand-pink-dark hover:underline"  target=blank>Baixar PDF</a>
                 </div>
             </div>
         </div>
@@ -35,7 +35,7 @@
                 <i class="fas fa-file-alt text-3xl text-brand-pink-light"></i>
                 <div>
                     <h4 class="font-bold">Diagnóstico da Violência Doméstica em Barra do Corda</h4>
-                    <a href="#" class="text-sm text-brand-pink-dark hover:underline">Baixar Relatório</a>
+                    <a href="./anexos/Diagnostico_Violencia_Domestica_Barra_do_Corda.pdf" class="text-sm text-brand-pink-dark hover:underline" target=blank>Baixar Relatório</a>
                 </div>
             </div>
         </div>

@@ -6,8 +6,8 @@
                     <a href="https://www.instagram.com/sigaemfrente_mulher" target="_blank" class="flex items-center gap-3 text-2xl hover:scale-110 transition-transform"><i class="fab fa-instagram"></i><span>Nosso Instagram</span></a>
                     <a href="https://wa.me/5599912345678" target="_blank" class="flex items-center gap-3 text-2xl hover:scale-110 transition-transform"><i class="fab fa-whatsapp"></i><span>(99) 91234-5678</span></a>
                 </div>
-                <div class="mt-12">
+                <!-- <div class="mt-12">
                     <a href="https://linktr.ee/seu_projeto" target="_blank" class="bg-white text-brand-pink-dark font-bold py-4 px-8 rounded-full text-xl hover:bg-pink-100 transition-colors shadow-lg hover:shadow-xl transform hover:scale-105">Acesse nosso Linktree</a>
-                </div>
+                </div> -->
             </div>
         </section>
